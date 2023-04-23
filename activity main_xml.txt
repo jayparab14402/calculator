@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical"
+tools:context=".MainActivity">
+<EditText
+android:id="@+id/number1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:autofillHints=""
+android:ems="10"
+android:inputType="number"
+android:minHeight="48dp"
+tools:ignore="SpeakableTextPresentCheck" />
+<EditText
+android:id="@+id/number2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:autofillHints=""
+android:ems="10"
+android:inputType="number"
+tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+<Button
+android:id="@+id/addit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/add_it" />
+<Button
+android:id="@+id/multiply"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/multiply_it" />
+<Button
+android:id="@+id/clearbutton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/clear" />
+</androidx.appcompat.widget.LinearLayoutCompat>
